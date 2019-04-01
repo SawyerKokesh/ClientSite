@@ -1,0 +1,97 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis','Helvetica Neue',Arial,sans-serif;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+    .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+        color: #f05f40;
+        font-size: 30px;
+    }
+
+.navbar-inverse {
+    border: 0;
+    background-color: #343a40;
+}
+
+    .navbar-inverse .nav > li > a {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.8px;
+    }
+
+        .navbar-inverse .nav > li > a:hover {
+            color: #f05f40;
+        }
+
+a {
+    color: #343a40;
+}
+
+    a:hover {
+        color: #f05f40;
+    }
+
+
+.table > thead > tr > th {
+    border-bottom: 2px solid #f05f40;
+}
+
+.table tr:hover {
+    background-color: rgba(240, 98, 66, 0.2);
+}
+
+.detailImage {
+    width: 300px;
+    padding: 20px;
+}
+
+hr {
+    border-top: 1px solid #f05f40;
+}
+
+.homePagePara {
+    margin: 0 20px 10px;
+    width: 75%;
+}
+
+.detailTable {
+    width: 100%;
+}
+
+.detailButtons {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.saveButton {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.saveButtonCont{
+    margin-bottom: 0px;
+}
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edgZes */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,36 @@
+﻿@model ClientSite.Models.Client
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div>
+    <hr />
+    <table class="detailTable">
+        <tr>
+            <th>
+                <h3>@Html.DisplayFor(model => model.Title)</h3>
+            </th>
+            <th>
+                <h3 class="detailButtons"><a asp-action="Edit" asp-route-id="@Model.Id">Edit</a></h3>
+            </th>
+        </tr>
+    </table>
+    <h4>@Html.DisplayNameFor(model => model.Category):  <span>@Html.DisplayFor(model => model.Category)</span></h4>
+    <img class="detailImage" src="@Html.DisplayFor(model => model.Image)" alt="temp">
+    
+
+    <table class="detailTable">
+        <tr>
+            <th>
+                <h3>@Html.DisplayNameFor(model => model.Website):  <span><a href="@Html.DisplayFor(model => model.Website)">@Html.DisplayFor(model => model.Website)</a></span></h3>
+            </th>
+            <th >
+                <h3 class="detailButtons"><a asp-action="Index">Back</a></h3>
+            </th>
+        </tr>
+    </table>
+</div>
