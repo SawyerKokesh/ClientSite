@@ -85,7 +85,7 @@ Write(ViewData["Title"]);
             WriteLiteral("</h3>\r\n            </th>\r\n            <th>\r\n                <h3 class=\"detailButtons\">");
             EndContext();
             BeginContext(386, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4dada9ae1b52455ca63a815f5c1ee920", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bdf3d719ed9f4e068b777da09e070fe2", async() => {
                 BeginContext(432, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -180,7 +180,7 @@ WriteAttributeValue("", 854, Html.DisplayFor(model => model.Website), 854, 40, f
             WriteLiteral("</a></span></h3>\r\n            </th>\r\n            <th >\r\n                <h3 class=\"detailButtons\">");
             EndContext();
             BeginContext(1034, 30, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9195ff886a14d519de234b8dc991a1d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5ff6e0c6e68498788d1e3ac5972f0a9", async() => {
                 BeginContext(1056, 4, true);
                 WriteLiteral("Back");
                 EndContext();

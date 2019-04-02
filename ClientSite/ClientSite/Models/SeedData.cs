@@ -24,14 +24,6 @@ namespace ClientSite.Models
                 context.Client.AddRange(
                     new Client
                     {
-                        Title = "Blue Cross Blue Shield of Arizona",
-                        Category = "Healthcare",
-                        Website = "https://www.bcbs.com/",
-                        Image = "https://www.bcbs.com/themes/custom/bcbs/img/full-logo.svg"
-                    },
-
-                    new Client
-                    {
                         Title = "GECU",
                         Category = "Financial",
                         Website = "https://www.gecu.com/",
